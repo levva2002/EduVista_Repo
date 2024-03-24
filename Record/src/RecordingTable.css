@@ -1,0 +1,43 @@
+.recording-table {
+  font-family: Arial, sans-serif;
+}
+
+.recording-table h2 {
+  margin-bottom: 10px;
+}
+
+.recording-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recording-table th, .recording-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.recording-table th {
+  background-color: #f2f2f2;
+}
+
+.recording-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.recording-table tr:hover {
+  background-color: #ddd;
+}
+
+.recording-table button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.recording-table button:hover {
+  background-color: #0056b3;
+}
