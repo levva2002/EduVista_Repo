@@ -1,0 +1,104 @@
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    transition: top 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    color: #00a2ff;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .auth-buttons {
+    margin-right: 20px;
+  }
+  
+  .signup-button,
+  .login-button {
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .signup-button:hover,
+  .login-button:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-color: rgba(255, 0, 0, 0.5);
+  }
+  
+  .login-button {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: black;
+    color: white;
+  }
+  
