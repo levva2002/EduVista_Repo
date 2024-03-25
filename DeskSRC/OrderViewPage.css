@@ -1,0 +1,14 @@
+/* OrderViewPage.css */
+.order-view-page {
+    padding: 20px;
+}
+
+.order-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.order-details div {
+    margin-bottom: 10px;
+}
