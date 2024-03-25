@@ -1,0 +1,7 @@
+
+
+.pagination button.active {
+    color: rgb(200, 200, 200); 
+    background-color: rgb(249, 19, 19);
+  }
+  
