@@ -1,0 +1,50 @@
+/* JoinUsNow.css */
+
+.join-us-container {
+    background-color: rgb(1, 37, 1);
+    padding: 120px;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .join-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .join-us-image-container {
+    flex: 1;
+  }
+
+  
+  .join-us-image {
+    height: 300px;
+
+  }
+  
+  .join-us-text {
+    flex: 2;
+    text-align: right;
+  }
+  
+  .join-us-heading {
+    color: white;
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .join-us-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .join-us-button:hover {
+    background-color: #990000; /* Darker shade of red on hover */
+  }
+  
