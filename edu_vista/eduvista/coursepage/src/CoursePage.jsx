@@ -2,12 +2,11 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from './CourseHeader.jsx';
-import CourseCard from './CourseCard.jsx'
-import Slideshow from './Courselideshow.jsx';
+import Slideshow from './Coursesslideshow';
 import FilterCard from './FilterCard.jsx';
 import JoinUsNow from './JoinUsNow.jsx';
-import Pagination from './pagination.jsx'; 
-import './CourseSearchBar.css';
+import CourseCard from './Coursecard';
+import Pagination from './coursepagination'; 
 import './CoursePage.css';
 
 // Define the main component

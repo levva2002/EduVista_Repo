@@ -1,5 +1,5 @@
 import React from 'react';
-import './Pagination.css'; // Importing the CSS file for styling
+import './pagination.css'; // Importing the CSS file for styling
 
 const Pagination = ({ currentPage, totalPages, onPageChange, onPrevious, onNext }) => {
   // Function to render pagination buttons
