@@ -1,0 +1,134 @@
+.filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 16px; /* Example font size */
+  }
+  
+  .toggle-subjects-button,
+  .toggle-levels-button,
+  .toggle-reviews-button { /* Added toggle-reviews-button class */
+    margin-bottom: 10px;
+  }
+  
+  .toggle-subjects-button button,
+  .toggle-levels-button button,
+  .toggle-reviews-button button { /* Added toggle-reviews-button class */
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 14px; /* Example font size */
+  }
+  
+  .toggle-subjects-button button:hover,
+  .toggle-levels-button button:hover,
+  .toggle-reviews-button button:hover { /* Added toggle-reviews-button class */
+    background-color: #ba6e6e;
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filter-options span,
+  .filter-options button { /* Added button element */
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 14px; /* Example font size */
+  }
+  
+  .filter-options span:hover,
+  .filter-options button:hover { /* Added button element */
+    background-color: #f0f0f0; /* Lighter background on hover */
+  }
+  
+  .applied-filter {
+    display: inline-block;
+    background-color: #a7d2ff;
+    color: #000000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 14px; /* Example font size */
+  }
+  
+  .applied-filter button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 14px; /* Example font size */
+  }
+  
+  .applied-filter button:hover {
+    text-decoration: underline;
+    color: #8d4d4d;
+  }
+  
+  .clear-all-button button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 14px; /* Example font size */
+  }
+  
+  .clear-all-button button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .clear-all-button button:hover {
+    text-decoration: underline;
+  }
+  
+  .toggle-reviews-button {
+    margin-bottom: 10px;
+  }
+  
+  .toggle-reviews-button button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 14px; /* Example font size */
+  }
+  
+  .toggle-reviews-button button:hover {
+    background-color: #ba6e6e;
+  }
+  
+  .filter-title{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
