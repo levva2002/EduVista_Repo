@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from './CourseHeader.jsx';
-import Slideshow from './Coursesslideshow';
+import Slideshow from './CourseSlideShow.jsx';
 import FilterCard from './FilterCard.jsx';
 import JoinUsNow from './JoinUsNow.jsx';
 import CourseCard from './Coursecard';

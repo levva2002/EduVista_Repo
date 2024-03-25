@@ -1,6 +1,7 @@
+// CourseHeader.jsx
 
 import React, { useEffect, useState } from 'react';
-import './CourseHeader.css'; 
+import './CourseHeader.css'; // Import the CSS file for header styles
 
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
